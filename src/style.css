@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+body{
+    font-family: 'Calistoga', cursive;  
+    background-color: #34495e;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.progress-bar{
+    margin: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 70vw;
+    height: 25px;
+    padding: 3px;
+}
+
+.progress-value{
+    background-color: #2ecc71;
+    border-radius: 4px;
+    height: 100%;
+}
