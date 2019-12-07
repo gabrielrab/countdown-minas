@@ -29,6 +29,7 @@ function App() {
     <>
       <header>
         <h1>Tempo restante</h1>
+        <p>para o Gabriel entrar de férias e voltar para Minas Gerais.</p>
         <div className="progress-bar">
           <div className="progress-value" style={{ width: `${load}%` }}></div>
         </div>
