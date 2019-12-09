@@ -21,6 +21,7 @@ header{
     align-items: center;
     flex-direction: column;
     color: white;
+    padding: 12px;
 }
 
 .progress-bar{
@@ -36,4 +37,8 @@ header{
     background-color: #2ecc71;
     border-radius: 4px;
     height: 100%;
+}
+
+p{
+    text-align: center;
 }
