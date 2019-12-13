@@ -12,7 +12,7 @@ function App() {
     function loadDate() {
       const res = formatDistance(
         new Date(),
-        new Date("Fri Dec 13 2019 01:01:35"),
+        new Date("Fri Dec 13 2019 14:55:35"),
         {
           locale: pt
         }
