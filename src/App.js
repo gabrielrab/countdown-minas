@@ -21,13 +21,14 @@ function App() {
       const [time] = res.split(" ");
       console.log("[res]", res.split(" "));
       const recive_load = 100 - (time / 60) * 100;
+      console.log("[receive load]", recive_load);
       setLoad(recive_load);
       setValue(res);
     }
 
     setInterval(() => {
       loadDate();
-    }, 10000);
+    }, 1000);
   });
 
   return (
