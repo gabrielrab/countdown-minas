@@ -12,13 +12,15 @@ function App() {
     function loadDate() {
       const res = formatDistance(
         new Date(),
-        new Date("Fri Dec 13 2019 14:55:35"),
+        new Date("Tue May 03 2022 18:00:00"),
         {
-          locale: pt
+          locale: pt,
+          includeSeconds: true,
         }
       );
-      const [day, word] = res.split(" ");
-      const recive_load = 100 - day * 10;
+      const [time] = res.split(" ");
+      console.log("[res]", res.split(" "));
+      const recive_load = 100 - (time / 60) * 100;
       setLoad(recive_load);
       setValue(res);
     }
@@ -29,11 +31,16 @@ function App() {
     <>
       <header>
         <h1>Tempo restante</h1>
-        <p>para o Gabriel entrar de férias e voltar para Minas Gerais.</p>
+        <p>
+          para o Sara sair do trabalho, e segundo ela, ir sofrer na faculdade.
+        </p>
         <div className="progress-bar">
-          <div className="progress-value" style={{ width: `${load}%` }}></div>
+          <div
+            className="progress-value"
+            style={{ width: `${load < 0 ? 100 : load}%` }}
+          ></div>
         </div>
-        <h2>{value}</h2>
+        <h2>{load > 0 ? value : "Está na hora !"}</h2>
       </header>
     </>
   );
