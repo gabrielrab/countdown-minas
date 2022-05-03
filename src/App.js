@@ -24,7 +24,10 @@ function App() {
       setLoad(recive_load);
       setValue(res);
     }
-    loadDate();
+
+    setInterval(() => {
+      loadDate();
+    }, 10000);
   });
 
   return (
