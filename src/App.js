@@ -39,12 +39,9 @@ function App() {
           para o Sara sair do trabalho, e segundo ela, ir sofrer na faculdade.
         </p>
         <div className="progress-bar">
-          <div
-            className="progress-value"
-            style={{ width: `${load < 0 ? 100 : load}%` }}
-          ></div>
+          <div className="progress-value" style={{ width: `${100}%` }}></div>
         </div>
-        <h2>{load > 0 ? value : "Está na hora !"}</h2>
+        <h2>Está na hora !</h2>
       </header>
     </>
   );
