@@ -20,7 +20,6 @@ function App() {
       );
       const [time] = res.split(" ");
       const recive_load = 100 - (time / 60) * 100;
-      console.log("[recive_load]", recive_load);
       setLoad(recive_load);
       setValue(res);
     }
@@ -42,7 +41,7 @@ function App() {
           ></div>
         </div>
         <h2>
-          {load > 0 && new Date("Tue May 24 2022 18:00:00") < new Date()
+          {new Date("Tue May 24 2022 18:00:00").getTime() > new Date().getTime()
             ? value
             : "Está na hora !"}
         </h2>
