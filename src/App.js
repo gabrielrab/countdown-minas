@@ -37,7 +37,13 @@ function App() {
     <>
       <header>
         <h1>Tempo restante</h1>
-        <p>para o eu encontrar a Olívia, a melhor namorada do mundo ❤️.</p>
+        <p>
+          para o eu encontrar a Olívia, a melhor namorada do mundo{" "}
+          <span role="img" aria-label="Coração">
+            ❤️
+          </span>
+          .
+        </p>
         <div className="progress-bar">
           <div
             className="progress-value"
