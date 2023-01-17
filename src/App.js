@@ -38,7 +38,7 @@ function App() {
       <header>
         <h1>Tempo restante</h1>
         <p>
-          para o eu encontrar a Olívia, a melhor namorada do mundo{" "}
+          para eu encontrar a Olívia, a melhor namorada do mundo{" "}
           <span role="img" aria-label="Coração">
             ❤️
           </span>
