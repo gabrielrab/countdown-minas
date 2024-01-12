@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  differenceInDays,
-  differenceInHours,
-  differenceInMilliseconds,
-} from "date-fns";
+import { differenceInDays, differenceInHours } from "date-fns";
 import pt from "date-fns/locale/pt";
 import { format } from "date-fns";
 
