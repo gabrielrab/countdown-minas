@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { useState, useEffect } from "react";
 import { differenceInDays, differenceInHours } from "date-fns";
 import pt from "date-fns/locale/pt";
