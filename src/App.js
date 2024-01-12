@@ -54,6 +54,13 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
+  function surprise() {
+    alert("Eu te amo muito!");
+    alert("Você é a melhor namorada do mundo!");
+    alert("Não existe mulher tão linda como você!");
+    alert("Estou com muuuuita saudade!");
+  }
+
   return (
     <>
       <header>
@@ -77,6 +84,10 @@ function App() {
           ></div>
         </div>
         <h2>{timeToTravel.formattedTime}</h2>
+      </header>
+      <header>
+        <h1>Clique no botão abaixo e tenha uma surpresa</h1>
+        <button onClick={surprise}>Clique aqui</button>
       </header>
     </>
   );

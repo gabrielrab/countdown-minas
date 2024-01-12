@@ -1,44 +1,53 @@
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Calistoga&display=swap");
 
-body{
-    font-family: 'Calistoga', cursive;  
-    background-color: #34495e;
+body {
+  font-family: "Calistoga", cursive;
+  background-color: #34495e;
 }
 
-header{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-    padding: 12px;
+header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 12px;
 }
 
-.progress-bar{
-    margin: 20px;
-    border: 1px solid #dddddd;
-    border-radius: 5px;
-    width: 70vw;
-    height: 25px;
-    padding: 3px;
+.progress-bar {
+  margin: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  width: 70vw;
+  height: 25px;
+  padding: 3px;
 }
 
-.progress-value{
-    background-color: #2ecc71;
-    border-radius: 4px;
-    height: 100%;
+.progress-value {
+  background-color: #2ecc71;
+  border-radius: 4px;
+  height: 100%;
 }
 
-p{
-    text-align: center;
+p {
+  text-align: center;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: "Calistoga", cursive;
+  border-radius: 5px;
+  border: none;
 }
